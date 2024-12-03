@@ -11,9 +11,9 @@ import re
 
 
 
-bvids = ["BV1zp1TYgEL5","BV1U12PYDErq","BV1Xhx1ezEad","BV1gZ1BYmEKM","BV1CfCQYiEk1","BV1wxxhemEEr","BV1NcxCepEMY","BV1XhxVeJE1h"]
+bvids = []
 
-bvids_bilibili_un = ""
+bvids_bilibili_un = "BV1LEzzYrEu7,BV1okBiYeEKH,BV1SdUpYCEcK,BV1mfUFYVESk,BV15uzYYWE5L,BV1Ssz5Y8Erc,BV1fpBtYLEih,BV1rLUZYZEKE"
 
 # bvids_bilibili_un = os.getenv("bvids_bilibili_un")
 # bvids_bilibili_un = bvids_bilibili_un.replace('"','')
