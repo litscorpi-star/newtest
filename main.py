@@ -13,7 +13,7 @@ import re
 
 bvids = []
 
-bvids_bilibili_un = "BV1LEzzYrEu7,BV1okBiYeEKH,BV1SdUpYCEcK,BV1mfUFYVESk,BV15uzYYWE5L,BV1Ssz5Y8Erc,BV1fpBtYLEih,BV1rLUZYZEKE"
+bvids_bilibili_un = "BV1hDDWY9Emh,BV1YFyUYVEBm,BV1gzmMYKEiS,BV1Qc2SYEEBK,BV1wxxhemEEr,BV1NcxCepEMY,BV1XhxVeJE1h,BV1a8mLYsEsQ"
 
 # bvids_bilibili_un = os.getenv("bvids_bilibili_un")
 # bvids_bilibili_un = bvids_bilibili_un.replace('"','')
@@ -82,7 +82,7 @@ def goPlay(url):
                 
                 requests.post(url, data=data, headers=headers)
 
-                time.sleep(6)
+                time.sleep(15)
 
                 #requests.post(VIDEO_HEARTBEAT, data=data, headers=headers)
 
@@ -93,7 +93,7 @@ def goPlay(url):
             localtime = time.asctime( time.localtime(time.time()) )
             print_log(localtime)
             # 刷一次要休息100s, 即使有连接池貌似也不能随便刷, 你可以研究下
-            delay = random.randint(120,180)
+            delay = random.randint(300,360)
             time.sleep(delay)
         except Exception as e:
             print_log(e)
