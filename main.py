@@ -68,7 +68,7 @@ for bvid in bvids:
 def goPlay(url):
     count = 0
     #count < 30
-    while count < 70:
+    while count < 75:
         try:
             random.shuffle(reqdatas)
             #发起一个post请求，去请求这个页面，从而获得一次点击量
@@ -82,7 +82,7 @@ def goPlay(url):
                 
                 requests.post(url, data=data, headers=headers)
 
-                t = random.randint(10,15)
+                t = random.randint(10,12)
             
                 time.sleep(t)
 
