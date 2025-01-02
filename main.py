@@ -13,7 +13,7 @@ import re
 
 bvids = []
 
-bvids_bilibili_un = "BV1hDDWY9Emh,BV1YFyUYVEBm,BV1gzmMYKEiS,BV1a8mLYsEsQ,BV1bZq8YKEeb,BV1t86FY9ECf"
+bvids_bilibili_un = "BV1hDDWY9Emh,BV1YFyUYVEBm,BV1gzmMYKEiS,BV1a8mLYsEsQ,BV1bZq8YKEeb,BV1t86FY9ECf,BV1UxmaYwECv,BV17G1yYkE8g"
 
 # bvids_bilibili_un = os.getenv("bvids_bilibili_un")
 # bvids_bilibili_un = bvids_bilibili_un.replace('"','')
